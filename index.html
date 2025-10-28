@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Arya Shinde — Portfolio</title>
+  <meta name="description" content="Arya Shinde — AI Researcher & Data Analyst. Projects in machine learning, process mining, and predictive modelling." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="#hero">Arya<span class="accent">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a class="btn-outline" id="download-resume" href="resume.pdf" download>Download Resume</a>
+      </div>
+      <button class="nav-toggle" aria-label="Open menu" id="navToggle">☰</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero container">
+      <div class="hero-left">
+        <h1>Hi — I’m <span class="name">Arya Shinde</span></h1>
+        <p class="tagline">CSE Student • Data Analyst • ML & Process Mining Researcher</p>
+        <p class="hero-desc">
+          I build ML solutions, dashboards and research tools to extract insights from data. Currently
+          exploring predictive modelling, process mining and generative AI — with practical experience in Python, SQL and data visualization.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="btn-ghost" href="mailto:aryamangesh_shinde@srmap.edu.in">Contact Me</a>
+        </div>
+        <ul class="hero-meta">
+          <li><strong>Location</strong> Mumbai, Maharashtra, India</li>
+          <li><strong>Email</strong> <button class="link-like" id="copyEmailBtn">aryamangesh_shinde@srmap.edu.in</button></li>
+          <li><strong>LinkedIn</strong> <a class="link-like" href="https://linkedin.com/in/arya-shinde-a07478275" target="_blank" rel="noopener">arya-shinde</a></li>
+        </ul>
+      </div>
+      <div class="hero-right">
+        <div class="profile-card">
+          <img id="profileImage" src="profile.jpg" alt="Arya Shinde — profile photo" />
+          <div class="profile-info">
+            <h3>Arya Shinde</h3>
+            <p>CSE Student — SRM University AP</p>
+            <p class="muted">BTech (2023–2027) • CGPA: 7.79</p>
+            <a class="btn-small" href="resume.pdf" download>Download Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h2>About</h2>
+      <p>
+        I’m a Computer Science student with hands-on experience in machine learning, data analytics,
+        and process mining. I enjoy turning messy data into actionable insights, building models for
+        healthcare and business, and preparing reproducible research reports and dashboards.
+      </p>
+    </section>
+
+    <section id="experience" class="container section">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <article class="timeline-item">
+          <h3>Data Analytics Intern — Sanjay Ghodawat Group</h3>
+          <span class="time">Oct 2025 – Present</span>
+          <p>Assisting in analysis & visualization of business datasets, building dashboards and automated reports using Python, SQL and Power BI.</p>
+        </article>
+
+        <article class="timeline-item">
+          <h3>Virtual Research Intern — North-Chiang Mai University (Remote)</h3>
+          <span class="time">Jun 2025 – Jul 2025</span>
+          <p>Applied ML techniques on healthcare datasets to build predictive models for chronic disease progression. Tools: Python, scikit-learn.</p>
+        </article>
+
+        <article class="timeline-item">
+          <h3>Student Research Intern — Universiti Teknologi PETRONAS (Remote)</h3>
+          <span class="time">Jun 2025 – Aug 2025</span>
+          <p>Process mining research on bug-fixing lifecycle; used ProM6 and heuristics-based discovery to analyze issue resolution patterns.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="container section">
+      <h2>Projects</h2>
+      <div class="cards-grid">
+        <article class="card">
+          <h3>Resume Selection with Machine Learning</h3>
+          <p>Naive Bayes classifier to automate resume screening based on job relevance. Text processing, feature engineering and model evaluation.</p>
+          <p class="muted">Oct 2025 • Tools: Python, Pandas, Scikit-learn</p>
+        </article>
+
+        <article class="card">
+          <h3>Twitter Sentiment Analysis</h3>
+          <p>Twitter sentiment classifier using TF-IDF and classical models (Logistic Regression, Naive Bayes). Includes preprocessing pipeline.</p>
+          <p class="muted">Oct 2025 • Tools: Python, scikit-learn, NLTK</p>
+        </article>
+
+        <article class="card">
+          <h3>Breast Cancer Prediction</h3>
+          <p>Applied ML models for early diagnosis on real-world datasets and evaluated performance with cross validation and confusion analysis.</p>
+          <p class="muted">Sep 2025 • Tools: scikit-learn</p>
+        </article>
+
+        <article class="card">
+          <h3>Predictive Modeling of Type 2 Diabetes Progression</h3>
+          <p>Multivariate predictive model development using feature selection and model interpretability techniques. Delivered reports & dashboards.</p>
+          <p class="muted">Jun–Aug 2025 • Tools: Pandas, Scikit-learn, Google Colab</p>
+        </article>
+
+        <article class="card">
+          <h3>Process Mining of Bug Fixing Lifecycle</h3>
+          <p>Used ProM’s Heuristics Miner to discover process models, measure cycle time and detect bottlenecks in agile workflows.</p>
+          <p class="muted">Jun–Jul 2025 • Tools: ProM6, Python</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="research" class="container section">
+      <h2>Research & Volunteering</h2>
+      <ul class="simple-list">
+        <li>Process mining research & event log analysis — Universiti Teknologi PETRONAS.</li>
+        <li>Healthcare ML research internship — North-Chiang Mai University.</li>
+        <li>SARC Member & Student Council technical team — SRM University AP.</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="container section">
+      <h2>Skills & Certifications</h2>
+      <div class="skills">
+        <ul class="skill-list">
+          <li>Python</li><li>SQL</li><li>Scikit-learn</li><li>Pandas</li><li>NumPy</li><li>Power BI</li><li>ProM6</li><li>Git</li>
+        </ul>
+        <div class="certs">
+          <h4>Selected Certifications</h4>
+          <ul>
+            <li>Naive Bayes 101 — Coursera Project Network</li>
+            <li>NLP: Twitter Sentiment Analysis — Coursera Project Network</li>
+            <li>Data Visualization Certificate — IBM</li>
+            <li>Google Cybersecurity Basics Certificate</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2>Contact</h2>
+      <p>If you'd like to collaborate, hire, or talk research, send a message — or use the contact links below.</p>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h4>Email</h4>
+          <a href="mailto:aryamangesh_shinde@srmap.edu.in">aryamangesh_shinde@srmap.edu.in</a>
+        </div>
+        <div class="contact-card">
+          <h4>Phone</h4>
+          <a href="tel:+917718021077">+91 77180 21077</a>
+        </div>
+        <div class="contact-card">
+          <h4>LinkedIn</h4>
+          <a href="https://linkedin.com/in/arya-shinde-a07478275" target="_blank" rel="noopener">linkedin.com/in/arya-shinde-a07478275</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="curYear"></span> Arya Shinde — Built with ❤️ • <a href="resume.pdf" download>Resume</a></p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
