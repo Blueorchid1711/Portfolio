@@ -171,5 +171,17 @@ h1{font-size:40px;line-height:1.1;margin-bottom:10px}
   .nav-toggle{display:block;margin-left:auto}
   .container{padding:20px}
 }
+ul a {
+  color: var(--accent1);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+ul a:hover {
+  color: var(--accent2);
+  text-decoration: underline;
+}
+
 
 
