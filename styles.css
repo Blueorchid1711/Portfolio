@@ -259,3 +259,43 @@ h1 {
     display: none;
   }
 }
+/* ---------- Link Styling ---------- */
+a {
+  color: #ff4f81;
+  text-decoration: none;
+  transition: color 0.25s ease, text-shadow 0.25s ease;
+}
+
+a:hover {
+  color: #ff8c00;
+  text-shadow: 0 0 8px rgba(255, 79, 129, 0.5);
+}
+
+/* ---------- Fix Email Button ---------- */
+button.link-like,
+.link-like {
+  background: none;
+  border: none;
+  color: #ff4f81;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0;
+}
+
+button.link-like:hover {
+  color: #ff8c00;
+  text-shadow: 0 0 6px rgba(255, 140, 0, 0.6);
+}
+
+/* ---------- Hero Meta Chips ---------- */
+.hero-meta li {
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #dcdcdc;
+}
+
+.hero-meta strong {
+  color: #fff;
+}
+
