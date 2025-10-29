@@ -298,4 +298,23 @@ button.link-like:hover {
 .hero-meta strong {
   color: #fff;
 }
+/* ---------- Tech Stack (Skill Badges) ---------- */
+.skill-list li {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 8px 14px;
+  border-radius: 999px;
+  color: var(--muted);
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+/* Hover Glow Effect */
+.skill-list li:hover {
+  color: #fff;
+  background: rgba(255, 204, 0, 0.15);
+  box-shadow: 0 0 10px rgba(255, 204, 0, 0.4),
+              0 0 20px rgba(255, 204, 0, 0.2);
+  transform: translateY(-2px);
+}
 
